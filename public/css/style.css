@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+*{
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color : #FFF;
+}
+
+h1{
+  color: #FF5E3A;
+  font-size: 70px;
+  font-weight:bold;
+  margin-top: 65px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+  color: #FF5E3A;
+  font-size:37px;
+  margin-top: -30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+#choose{
+  font-size:20px;
+  width: 330px;
+  padding:15px;
+  /*VIBES*/
+  
+}
+
+.problems{
+  width:200px;
+  margin-top:25px;
+  border : solid 1px #ffffff;
+	border-radius : 4px;
+	moz-border-radius : 4px;
+	font-size : 20px;
+	color : #ffffff;
+	padding : 11px 20px;
+	background : #ff5e3a;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5e3a), color-stop(100%,#ff2a66));
+	background : -moz-linear-gradient(top, #ff5e3a 0%, #ff2a66 100%);
+	background : -webkit-linear-gradient(top, #ff5e3a 0%, #ff2a66 100%);
+	background : -o-linear-gradient(top, #ff5e3a 0%, #ff2a66 100%);
+	background : -ms-linear-gradient(top, #ff5e3a 0%, #ff2a66 100%);
+	background : linear-gradient(top, #ff5e3a 0%, #ff2a66 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e3a', endColorstr='#ff2a66',GradientType=0 );
+}
+
+.problems:hover{
+	border : solid 1px #ffffff;
+	border-radius : 4px;
+	moz-border-radius : 4px;
+	font-size : 20px;
+	color : #ffffff;
+	padding : 11px 20px;
+	background : #ff2a66;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff2a66), color-stop(100%,#ff5e3a));
+	background : -moz-linear-gradient(top, #ff2a66 0%, #ff5e3a 100%);
+	background : -webkit-linear-gradient(top, #ff2a66 0%, #ff5e3a 100%);
+	background : -o-linear-gradient(top, #ff2a66 0%, #ff5e3a 100%);
+	background : -ms-linear-gradient(top, #ff2a66 0%, #ff5e3a 100%);
+	background : linear-gradient(top, #ff2a66 0%, #ff5e3a 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2a66', endColorstr='#ff5e3a',GradientType=0 );
+}
