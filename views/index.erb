@@ -1,46 +1,69 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <meta charset="UTF-8">
-
-  <title>Trumpenator</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TRUMPENATOR</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
   <link rel="stylesheet" href="css/style.css" type="text/css">
- </head>
- <body>
-   <center>
-   <h1>The Trumpenator!</h1>
-   <h2>Pick a topic you want Donald Trump's opinion on.</h2>
-   <div id="choose">
-   <form method="POST" action= "/trump">
-<input type="radio" name="topic" value="the_economy" checked>The Economy
-<br>
-<input type="radio" name="topic" value="race_relations">Race relations
-     <br>
-<input type="radio" name="topic" value="his_own_fame">His own fame
-     <br>
-<input type="radio" name="topic" value="Global_Warming">Global Warming
-     <br>
-<input type="radio" name="topic" value="Barack_Obama">Barack Obama
-     <br>     
-     <input type="radio" name="topic" value="Gender">Gender
-     <br>  
-     <input type="radio" name="topic" value="foreign_relations">Foreign relations
-     <br>  
-     <input type="radio" name="topic" value="Celebrities">Celebrities
-     <br>  
-     <input type="radio" name="topic" value="election_2016">Election 2016
-     <br>  
-<!--    <input type= "submit" action = "/trump" class="problems"> -->
-      <input type="submit" value="Submit">
-   </form>
-   </div>
-   </center>
-
-  <title>Ask Donald</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
- <body>
-   <h1> Ask Donald Trump for advice and tips! </h1>
-   
   
- </body>
+  <!--BGROUND RANDOMIZER START-->
+	  <script language="JavaScript">
+	  <!-- Activate cloaking device
+	  var randnum = Math.random();
+	  var inum = 4;
+	  // Change this number to the number of images you are using.
+	  var rand1 = Math.round(randnum * (inum-1)) + 1;
+	  images = new Array
+	  images[1] = "http://i.imgur.com/kkNPI4k.jpg"
+	  images[2] = "http://i.imgur.com/0G3VoOJ.jpg"
+	  images[3] = "http://i.imgur.com/UqhW6eN.jpg"
+	  images[4] = "http://i.imgur.com/JpHyTlo.jpg"
+	  // Ensure you have an array item for every image you are using.
+	  var image = images[rand1]
+	  // Deactivate cloaking device -->
+	  </script>
+  <!--BGROUND RANDOMIZER END-->
+  
+</head>
+<body>
+  
+  <script language="JavaScript">
+        <!-- Activate cloaking device
+        document.write('<body background="' + image + '" text="white">')
+        // Deactivate cloaking device -->
+  </script>
+  
+  <a href="http://harukasenju-pc-15-precollege-se1-nyfl-080315-1-118551.nitrousapp.com:3000/index.erb">
+    <div id="refresh">
+      <img src="http://media.giphy.com/media/poiOz3yYCThiU/giphy.gif" height="50"/>
+      <img src="http://i.imgur.com/LbSJILa.png" height="57" class="refresh"/>
+    </div>
+  </a>
+  
+  <div id="wrapper">
+  
+   <h1>The Trumpenator(Alpha v3.6)</h1>
+   <h2>Pick a topic you want Donald Trump's opinion on.</h2>
+     <div id="theform">
+       <form method="POST" action= "/trump">
+         <input type="radio" name="topic" value="the_economy" checked>The Economy
+         <br>
+         <input type="radio" name="topic" value="race_relations">Race relations
+         <br>
+         <input type="radio" name="topic" value="his_own_fame">His own fame
+         <br>
+          <input type="radio" name="topic" value="Global_Warming">Global Warming
+         <br>
+         <input type="radio" name="topic" value="Barack_Obama">Barack Obama
+         <br>     
+         <input type="radio" name="topic" value="Gender">Gender
+         <br> 
+         <input type="submit" value="Submit" class="submit">
+       </form>
+     </div>
+    
+  </div>
+
+</body>
 </html>
